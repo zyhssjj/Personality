@@ -9,7 +9,7 @@ import type {
 const resumeUrl = `${import.meta.env.BASE_URL}resume-english.pdf`
 
 export const profile: Profile = {
-  name: 'YOUR NAME',
+  name: '张雨豪',
   heroId: 'System Atlas / 2026',
   role: 'Golang 后端候选人，也能做能落地的 AI 全栈产品',
   summary:
