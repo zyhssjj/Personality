@@ -6,7 +6,7 @@ import type {
   SkillGroup,
 } from '../types/site'
 
-const resumeUrl = `${import.meta.env.BASE_URL}resume-english.pdf`
+const resumeUrl = `${import.meta.env.BASE_URL}resume-zhang-yuhao.pdf`
 
 export const profile: Profile = {
   name: '张雨豪',
@@ -88,7 +88,7 @@ export const contacts: ContactItem[] = [
   { label: 'GitHub', value: 'github.com/zyhssjj', href: profile.links.github, primary: true },
   { label: '微信', value: '19841861568', primary: true },
   { label: '邮箱', value: '19841861568@139.com', href: profile.links.email },
-  { label: '简历', value: 'English Resume PDF', href: profile.links.resume },
+  { label: '简历', value: '张雨豪 · 开发岗位完整版 PDF', href: profile.links.resume },
 ]
 
 export const projectCases: ProjectCase[] = [
